@@ -60,7 +60,7 @@ export default function ProfileModal({user}) {
 						<Box sx={style}>
 							<Box p={2}>
 								<img src={user.pic} width={"200px"} style={{borderRadius: '50%'}} height={"200px"}
-								     alt={user.token}/>
+								     alt={user.username}/>
 								<div style={{display: "flex", justifyContent: "space-around", padding: "3px"}}>
 									<input
 										accept="image/*"

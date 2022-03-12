@@ -128,7 +128,7 @@ const SingleChat = ({fetchAgain, setFetchAgain}) => {
 						width={"100%"}
 						height={"63px"}
 						display={"flex"}
-						bgcolor={"#591980"}
+						bgcolor={"#93cfdb"}
 						justifyContent={"space-around"}
 						alignItems={"center"}
 					>

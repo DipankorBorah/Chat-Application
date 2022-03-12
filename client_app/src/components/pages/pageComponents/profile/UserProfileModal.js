@@ -71,7 +71,7 @@ export default function UserProfileModal({user}) {
 							width={"200px"}
 							style={{borderRadius: '50%'}}
 							height={"200px"}
-							alt={user.token}/>
+							alt={user.username}/>
 					</Box>
 					<Box
 						width={"100%"}>

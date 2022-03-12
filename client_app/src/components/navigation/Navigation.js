@@ -62,7 +62,7 @@ export default function Navigation() {
 		}}>
 			<Box sx={{
 				flexGrow: 1,
-				backgroundColor: "#591980",
+				backgroundColor: "#93cfdb",
 				borderRadius: "10px 0 0 0"
 			}}
 			     fixed>
@@ -74,11 +74,11 @@ export default function Navigation() {
 						noWrap
 						component="div"
 						sx={{
-							color: "#fff",
+							color: "#111",
 							fontFamily: [ 'Monoton', 'cursive' ],
 						}}
 					>
-						Chat
+						Chats
 					</Typography>
 					<div style={{flexGrow: 1}}/>
 					<div style={{flexGrow: 1}}/>
@@ -92,7 +92,7 @@ export default function Navigation() {
 								aria-label={`show ${notification.length} new notifications`}
 								sx={{mr: 2}}>
 								<Badge badgeContent={notification.length} color={"error"}>
-									<NotificationsIcon sx={{color: "#acadad"}}/>
+									<NotificationsIcon sx={{color: "#111"}}/>
 								</Badge>
 							</IconButton>
 						</Tooltip>
